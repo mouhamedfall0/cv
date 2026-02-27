@@ -28,8 +28,8 @@ st.sidebar.markdown("---")
 st.sidebar.markdown("Géomaticien - L2 en cours")
 
 # Main content
-st.title(" *Profilio*")
-st.markdown("*Mouhamed Lamine Fall* - geographe Géomaticien")
+st.title(" *Mouhamed Lamine Fall*")
+st.markdown("  geographe Géomaticien")
 
 ## COMPETENCES
 st.header(" *Compétences*")
