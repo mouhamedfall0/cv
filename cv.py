@@ -4,19 +4,13 @@ import streamlit.components.v1 as components
 st.set_page_config(page_title="Currculum Vitae ", page_icon="📍", layout="wide")
 
 # Sidebar pour Contacts et Logiciels
-st.sidebar.image("ameth.jpeg",width=150)
 st.sidebar.header(" *Contacts*")
 st.sidebar.markdown("""
-*Adresse*  
-Dakar, Medina, 
-
-*Téléphone*  
-[77 200 55 66]
-
 *Email*  
 [mouhamedfall261@gmail.com](mouhamedfall261@gmail.com)
+**Adresse**  
+Dakar, Medina, 
 """)
-
 st.sidebar.header(" *Logiciels maîtrisés*")
 logiciels = [
     "QGIS / ArcGIS",
@@ -34,17 +28,18 @@ st.sidebar.markdown("---")
 st.sidebar.markdown("Géomaticien - L2 en cours")
 
 # Main content
-st.title(" *Cv*")
+st.title(" *Profilio*")
 st.markdown("*Mouhamed Lamine Fall* - geographe Géomaticien")
 
 ## COMPETENCES
 st.header(" *Compétences*")
 competences = [
-    "Maîtrise de la topographiques",
+    "topographiques",
     "Cartographie",
     "Utilisation des outils de la geomatique : Niveau, Station totale(manuelle, Drone, GPS",
     "Géo-référencement",
     "Implanter une base de données",
+     "Teledetection",
     
 ]
 
